@@ -71,7 +71,7 @@ dotenv.config();
     from: `${process.env.APP_EMAIL}`,
     to: `${process.env.SEND_TO_EMAIL}`,
     subject: `Prod Lighthouse Reports [${process.env.APP_NAME}]`,
-    text: `Please find the attached Lighthouse reports for mobile and desktop.\n\nThis is auto-generated email, Please do not reply.\n\nNote: This report is generated daily at 10.30 AM.\n\nAutomated Message: This email is automatically generated to provide you with the latest Lighthouse reports.`,
+    text: `Please find the attached Lighthouse reports for mobile and desktop.\n\nNote: This report is generated daily at 10.30 AM. This email is automatically generated to provide you with the latest Lighthouse reports, Please do not reply.\n\nReason for Implementation: This automation, using Puppeteer to automate Lighthouse report generation, ensures consistent and timely performance insights for our application, allowing us to proactively address any issues and maintain optimal performance.`,
     attachments: [
       {
         filename: 'lighthouse-report-mobile.html',
