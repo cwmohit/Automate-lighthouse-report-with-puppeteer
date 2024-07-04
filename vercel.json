@@ -2,8 +2,5 @@
   "version": 2,
   "builds": [{ "src": "index.mjs", "use": "@vercel/node" }],
   "routes": [],
-  "outputDirectory": "public",
-  "functions": {
-    "timeout": 30
-  }
+  "outputDirectory": "public"
 }
