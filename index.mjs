@@ -3,6 +3,8 @@ import lighthouse from 'lighthouse';
 import { URL } from 'url';
 import nodemailer from 'nodemailer';
 import { writeFile } from 'fs/promises';
+import dotenv from 'dotenv';
+dotenv.config();
 
 (async () => {
   // Launch the browser
