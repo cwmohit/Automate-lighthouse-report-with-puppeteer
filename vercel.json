@@ -4,6 +4,6 @@
   "routes": [],
   "outputDirectory": "public",
   "functions": {
-    "timeout": 40
+    "timeout": 30
   }
 }
