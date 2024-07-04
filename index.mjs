@@ -71,7 +71,7 @@ dotenv.config();
     from: `${process.env.APP_EMAIL}`,
     to: `${process.env.SEND_TO_EMAIL}`,
     subject: `Prod Lighthouse Reports [${process.env.APP_NAME}]`,
-    text: `Please find the attached Lighthouse reports for mobile and desktop.\n\nThis is auto-generated email, Please do not reply.\n\nNote: This report is generated daily at 10.30 AM.`,
+    text: `Please find the attached Lighthouse reports for mobile and desktop.\n\nThis is auto-generated email, Please do not reply.\n\nNote: This report is generated daily at 10.30 AM.\n\nAutomated Message: This email is automatically generated to provide you with the latest Lighthouse reports.`,
     attachments: [
       {
         filename: 'lighthouse-report-mobile.html',
