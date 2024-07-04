@@ -47,8 +47,8 @@ dotenv.config();
   });
 
   // Save the reports to files
-  const reportPathMobile = 'lighthouse-report-mobile.html';
-  const reportPathDesktop = 'lighthouse-report-desktop.html';
+  const reportPathMobile = './public/lighthouse-report-mobile.html';
+  const reportPathDesktop = './public/lighthouse-report-desktop.html';
   await writeFile(reportPathMobile, reportMobile);
   await writeFile(reportPathDesktop, reportDesktop);
 

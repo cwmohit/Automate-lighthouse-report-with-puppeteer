@@ -1,2 +1,4 @@
 node_modules
 .env
+lighthouse-report-desktop.html
+lighthouse-report-mobile.html
