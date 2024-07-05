@@ -1,4 +1,5 @@
 # Automate Lighthouse Report
+This automation, using Puppeteer to automate Lighthouse report generation, ensures consistent and timely performance insights for our application, allowing us to proactively address any issues and maintain optimal performance.
 
 ## Installation
 
