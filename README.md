@@ -1,5 +1,4 @@
-# Project Name
-Automate Lighthouse Report
+# Automate Lighthouse Report
 
 ## Installation
 
